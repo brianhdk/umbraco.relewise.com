@@ -23,6 +23,12 @@
         <Compile Include="umbraco/models/**" Exclude="**/*.flag" />
     </ItemGroup>
 
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\Relewise.Umbraco9\Relewise.Umbraco9.csproj" />
+    </ItemGroup>
+
     <!-- Set this to true if ModelsBuilder mode is not InMemoryAuto-->
     <PropertyGroup>
         <RazorCompileOnBuild>false</RazorCompileOnBuild>
